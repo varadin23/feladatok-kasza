@@ -11,11 +11,13 @@ namespace játék
     {
         public int pipeSpeed;
         public PictureBox pipe;
+        public bool behind;
 
-        public Pipe(int pipeSpeed, PictureBox pipe)
+        public Pipe(int pipeSpeed, PictureBox pipe, bool behind = false)
         {
             this.pipeSpeed = pipeSpeed;
             this.pipe = pipe;
+            this.behind = behind;
         }
     }
 }

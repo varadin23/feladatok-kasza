@@ -34,9 +34,10 @@ namespace játék
             this.bird = new System.Windows.Forms.PictureBox();
             this.pipe = new System.Windows.Forms.PictureBox();
             this.ground = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.scoreLabel = new System.Windows.Forms.Label();
             this.gameTime = new System.Windows.Forms.Timer(this.components);
             this.pipedown2 = new System.Windows.Forms.PictureBox();
+            this.scoreNumber = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pipedown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bird)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pipe)).BeginInit();
@@ -86,15 +87,15 @@ namespace játék
             this.ground.TabStop = false;
             this.ground.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
-            // label1
+            // scoreLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Rockwell", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(29, 23);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 30);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Score:0";
+            this.scoreLabel.AutoSize = true;
+            this.scoreLabel.Font = new System.Drawing.Font("Rockwell", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.scoreLabel.Location = new System.Drawing.Point(29, 23);
+            this.scoreLabel.Name = "scoreLabel";
+            this.scoreLabel.Size = new System.Drawing.Size(83, 30);
+            this.scoreLabel.TabIndex = 4;
+            this.scoreLabel.Text = "Score:";
             // 
             // gameTime
             // 
@@ -112,15 +113,25 @@ namespace játék
             this.pipedown2.TabIndex = 5;
             this.pipedown2.TabStop = false;
             // 
+            // scoreNumber
+            // 
+            this.scoreNumber.AutoSize = true;
+            this.scoreNumber.Font = new System.Drawing.Font("Rockwell", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.scoreNumber.Location = new System.Drawing.Point(109, 23);
+            this.scoreNumber.Name = "scoreNumber";
+            this.scoreNumber.Size = new System.Drawing.Size(0, 30);
+            this.scoreNumber.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(775, 585);
+            this.Controls.Add(this.scoreNumber);
             this.Controls.Add(this.pipedown2);
             this.Controls.Add(this.bird);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.scoreLabel);
             this.Controls.Add(this.ground);
             this.Controls.Add(this.pipe);
             this.Controls.Add(this.pipedown);
@@ -144,9 +155,10 @@ namespace játék
         private System.Windows.Forms.PictureBox bird;
         private System.Windows.Forms.PictureBox pipe;
         private System.Windows.Forms.PictureBox ground;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label scoreLabel;
         private System.Windows.Forms.Timer gameTime;
         private System.Windows.Forms.PictureBox pipedown2;
+        private System.Windows.Forms.Label scoreNumber;
     }
 }
 

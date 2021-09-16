@@ -25,15 +25,9 @@ namespace játék
         public Form1()
         {
             InitializeComponent();
-            PipeList.Add(new Pipe(4, pipe));
-            PipeList.Add(new Pipe(4, pipedown));
-            PipeList.Add(new Pipe(4, pipedown2));
-            PipeList.Add(new Pipe(4, pipe));
-            PipeList.Add(new Pipe(4, pipedown));
-            PipeList.Add(new Pipe(4, pipedown2));
-            PipeList.Add(new Pipe(4, pipe));
-            PipeList.Add(new Pipe(4, pipedown));
-            PipeList.Add(new Pipe(4, pipedown2));
+            PipeList.Add(new Pipe(8, pipe));
+            PipeList.Add(new Pipe(8, pipedown));
+            PipeList.Add(new Pipe(8, pipedown2));
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -61,6 +55,7 @@ namespace játék
             }
 
             Respawn();
+            Point();
             
         }
 
@@ -120,6 +115,23 @@ namespace játék
                 if (item.pipe.Left <= -100)
                 {
                     item.pipe.Left = r.Next(893, 1200);
+                    item.behind = false;
+                }
+            }
+        }
+
+        private void Point()
+        {
+            foreach (Pipe item in PipeList)
+            {
+                if (item.pipe.Left < bird.Left)
+                {
+                    if(item.behind == false)
+                    {
+                        score += 1;
+                        item.behind = true;
+                        scoreNumber.Text = score.ToString();
+                    }
                 }
             }
         }
