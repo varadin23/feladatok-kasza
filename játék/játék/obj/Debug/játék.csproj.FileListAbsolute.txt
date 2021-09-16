@@ -1,0 +1,10 @@
+C:\Users\Tanulo\source\repos\játék\játék\bin\Debug\játék.exe.config
+C:\Users\Tanulo\source\repos\játék\játék\bin\Debug\játék.exe
+C:\Users\Tanulo\source\repos\játék\játék\bin\Debug\játék.pdb
+C:\Users\Tanulo\source\repos\játék\játék\obj\Debug\játék.csproj.AssemblyReference.cache
+C:\Users\Tanulo\source\repos\játék\játék\obj\Debug\játék.Form1.resources
+C:\Users\Tanulo\source\repos\játék\játék\obj\Debug\játék.Properties.Resources.resources
+C:\Users\Tanulo\source\repos\játék\játék\obj\Debug\játék.csproj.GenerateResource.cache
+C:\Users\Tanulo\source\repos\játék\játék\obj\Debug\játék.csproj.CoreCompileInputs.cache
+C:\Users\Tanulo\source\repos\játék\játék\obj\Debug\játék.exe
+C:\Users\Tanulo\source\repos\játék\játék\obj\Debug\játék.pdb
