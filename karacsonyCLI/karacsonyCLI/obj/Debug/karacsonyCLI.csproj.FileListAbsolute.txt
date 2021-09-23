@@ -1,0 +1,7 @@
+C:\Users\Tanulo\varadi_niki\kasza_asztali\karacsonyCLI\karacsonyCLI\obj\Debug\karacsonyCLI.csproj.AssemblyReference.cache
+C:\Users\Tanulo\varadi_niki\kasza_asztali\karacsonyCLI\karacsonyCLI\obj\Debug\karacsonyCLI.csproj.CoreCompileInputs.cache
+C:\Users\Tanulo\varadi_niki\kasza_asztali\karacsonyCLI\karacsonyCLI\bin\Debug\karacsonyCLI.exe.config
+C:\Users\Tanulo\varadi_niki\kasza_asztali\karacsonyCLI\karacsonyCLI\bin\Debug\karacsonyCLI.exe
+C:\Users\Tanulo\varadi_niki\kasza_asztali\karacsonyCLI\karacsonyCLI\bin\Debug\karacsonyCLI.pdb
+C:\Users\Tanulo\varadi_niki\kasza_asztali\karacsonyCLI\karacsonyCLI\obj\Debug\karacsonyCLI.exe
+C:\Users\Tanulo\varadi_niki\kasza_asztali\karacsonyCLI\karacsonyCLI\obj\Debug\karacsonyCLI.pdb
